@@ -1,11 +1,10 @@
 import React from "react";
-import { Text, View } from "react-native";
-import { SplashScreen } from "expo-router";
+import { View } from "react-native";
 import LottieView from "lottie-react-native";
+import { AuthProvider } from "../providers";
+import { SplashScreen, Slot } from "expo-router";
 
-SplashScreen.preventAutoHideAsync();
-
-export default function App() {
+const Layout = () => {
     const animation = React.useRef(null);
     const [isReady, setReady] = React.useState(false);
 
@@ -41,8 +40,10 @@ export default function App() {
     }
 
     return (
-        <>
-            <Text>My App</Text>
-        </>
+        <AuthProvider>
+            <Slot />
+        </AuthProvider>
     );
-}
+};
+
+export default Layout;
