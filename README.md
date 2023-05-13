@@ -2,7 +2,7 @@
 
 This repository is an example of how to use Expo Router to build a multi-tenant or multi-app mobile application.
 
-![video](./docs/example-video.mov)
+https://github.com/farmstrong8/expo-router-multi-app-example/assets/5731669/92fe669b-2f02-4ade-947c-eade5f008ef4
 
 ## Introduction
 
