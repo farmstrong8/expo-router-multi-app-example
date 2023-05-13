@@ -2,6 +2,8 @@
 
 This repository is an example of how to use Expo Router to build a multi-tenant or multi-app mobile application.
 
+![video](./docs/example-video.mov)
+
 ## Introduction
 
 [Expo Router](https://expo.github.io/router/docs) is a powerful tool that brings the best routing concepts from the web to native iOS and Android apps. Every file in the app directory automatically becomes a route in your mobile navigation, making it easier than ever to build, maintain, and scale your project. This repository demonstrates how to use Expo Router to build a mobile application that supports multiple tenants or apps.
